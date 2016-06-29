@@ -1,15 +1,17 @@
+# Implementação simples de Hashbang com iFrame
+
+Esta implementação foi desenvolvida rapidamente em cima do skeleton `es6` do brunch.
+Para rodar, siga as intruções abaixo (em inglês)
+
+Esta implementação foi desenvolvida devido à necessidade de acesso em uma rede corporativa cheia de navegadores obsoletos,
+tornando necessária a implementação de hashbangs em vez da API de History do HTML 5.
+
 # Brunch + Babel/ES6
-
-This is a modern JS skeleton for [Brunch](http://brunch.io).
-
-## Installation
-
-Clone this repo manually or use `brunch new dir -s brunch/with-es6`
 
 ## Getting started
 
 * Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
+    * [Node.js](http://nodejs.org)
     * [Brunch](http://brunch.io): `npm install -g brunch`
     * Brunch plugins and app dependencies: `npm install`
 * Run:
@@ -19,10 +21,3 @@ Clone this repo manually or use `brunch new dir -s brunch/with-es6`
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
-
-## ES7
-
-To use proposed JS features not included into ES6, do this:
-
-* `npm install --save-dev babel-preset-stage-0`
-* in `brunch-config.js`, add the preset: `presets: ['es2015', 'stage-0']`
